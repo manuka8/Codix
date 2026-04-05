@@ -51,7 +51,7 @@ const Contact = () => {
               <div>
                 <h3 className="text-xl font-semibold mb-2 text-white">Call Us</h3>
                 <p className="text-slate-400 mb-1">Mon-Fri from 8am to 5pm.</p>
-                <a href="tel:+(94)779139351" className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors">+94 77 9139351</a>
+                <a href="tel:+(94)779139351" className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors">+94 77 913 9351</a>
               </div>
             </div>
           </motion.div>
