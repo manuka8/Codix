@@ -10,6 +10,8 @@ import AboutPage from './pages/AboutPage';
 import SitemapPage from './pages/SitemapPage';
 import CareersPage from './pages/CareersPage';
 import BlogsPage from './pages/BlogsPage';
+import PrivacyPage from './pages/PrivacyPage';
+import TermsPage from './pages/TermsPage';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
             <Route path="/sitemap" element={<SitemapPage />} />
             <Route path="/careers" element={<CareersPage />} />
             <Route path="/blogs" element={<BlogsPage />} />
+            <Route path="/privacy" element={<PrivacyPage />} />
+            <Route path="/terms" element={<TermsPage />} />
             <Route path="/pricing" element={
               <div className="pt-20 lg:pt-24">
                 <Pricing />

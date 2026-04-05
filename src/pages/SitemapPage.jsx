@@ -31,8 +31,8 @@ const SitemapPage = () => {
     {
       category: 'Policies',
       links: [
-        { name: 'Privacy Policy', path: '#' },
-        { name: 'Terms of Service', path: '#' },
+        { name: 'Privacy Policy', path: '/privacy' },
+        { name: 'Terms of Service', path: '/terms' },
       ]
     }
   ];

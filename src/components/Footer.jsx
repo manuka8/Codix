@@ -85,8 +85,8 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} Codix Web Solutions. All rights reserved.</p>
           <div className="flex gap-6">
             <Link to="/sitemap" className="hover:text-slate-300">Sitemap</Link>
-            <a href="#" className="hover:text-slate-300">Privacy Policy</a>
-            <a href="#" className="hover:text-slate-300">Terms of Service</a>
+            <Link to="/privacy" className="hover:text-slate-300">Privacy Policy</Link>
+            <Link to="/terms" className="hover:text-slate-300">Terms of Service</Link>
           </div>
         </div>
 

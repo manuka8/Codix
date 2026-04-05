@@ -24,7 +24,7 @@ const Navbar = () => {
     { name: 'Contact', href: '/#contact' },
   ];
 
-  const isOtherPage = location.pathname === '/pricing' || location.pathname === '/projects';
+  const isOtherPage = location.pathname !== '/';
 
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled || isOtherPage ? 'bg-slate-900/80 backdrop-blur-lg border-b border-white/10 shadow-lg py-4' : 'bg-transparent py-6'}`}>
