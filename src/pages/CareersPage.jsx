@@ -8,27 +8,7 @@ const CareersPage = () => {
   }, []);
 
   const jobs = [
-    {
-      title: 'Senior Frontend Developer',
-      type: 'Full-time',
-      location: 'Remote / SF',
-      salary: '$120k - $160k',
-      tags: ['React', 'TypeScript', 'Tailwind']
-    },
-    {
-      title: 'UI/UX Product Designer',
-      type: 'Full-time',
-      location: 'SF / Hybrid',
-      salary: '$110k - $150k',
-      tags: ['Figma', 'Prototyping', 'Design Systems']
-    },
-    {
-      title: 'Backend Engineer (Node.js)',
-      type: 'Full-time',
-      location: 'Remote',
-      salary: '$130k - $170k',
-      tags: ['PostgreSQL', 'Redis', 'AWS']
-    }
+    
   ];
 
   return (
