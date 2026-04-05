@@ -6,6 +6,10 @@ import FloatingWhatsApp from './components/FloatingWhatsApp';
 import HomePage from './pages/HomePage';
 import Pricing from './sections/Pricing';
 import ProjectsPage from './pages/ProjectsPage';
+import AboutPage from './pages/AboutPage';
+import SitemapPage from './pages/SitemapPage';
+import CareersPage from './pages/CareersPage';
+import BlogsPage from './pages/BlogsPage';
 
 function App() {
   return (
@@ -16,6 +20,10 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/sitemap" element={<SitemapPage />} />
+            <Route path="/careers" element={<CareersPage />} />
+            <Route path="/blogs" element={<BlogsPage />} />
             <Route path="/pricing" element={
               <div className="pt-20 lg:pt-24">
                 <Pricing />

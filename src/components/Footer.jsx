@@ -1,5 +1,6 @@
 import React from 'react';
 import { Code2, Mail, createLucideIcon } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Github = createLucideIcon('Github', [
   ['path', { d: 'M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.26 1.23-.26 1.87v4', key: 'github-path-1' }]
@@ -57,10 +58,10 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-6">Company</h4>
             <ul className="space-y-3 text-sm text-slate-400">
-              <li><a href="#" className="hover:text-indigo-400 transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-indigo-400 transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-indigo-400 transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-indigo-400 transition-colors">Contact</a></li>
+              <li><Link to="/about" className="hover:text-indigo-400 transition-colors">About Us</Link></li>
+              <li><Link to="/careers" className="hover:text-indigo-400 transition-colors">Careers</Link></li>
+              <li><Link to="/blogs" className="hover:text-indigo-400 transition-colors">Blog</Link></li>
+              <li><Link to="/#contact" className="hover:text-indigo-400 transition-colors">Contact</Link></li>
             </ul>
           </div>
 
@@ -83,6 +84,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-slate-800/80 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
           <p>© {new Date().getFullYear()} Codix Web Solutions. All rights reserved.</p>
           <div className="flex gap-6">
+            <Link to="/sitemap" className="hover:text-slate-300">Sitemap</Link>
             <a href="#" className="hover:text-slate-300">Privacy Policy</a>
             <a href="#" className="hover:text-slate-300">Terms of Service</a>
           </div>
