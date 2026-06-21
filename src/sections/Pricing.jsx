@@ -29,7 +29,7 @@ const packages = [
       'Responsive design',
       'SEO optimization',
       'Any number of pages',
-      'Use React',
+      'Use React/NextJS',
       'Free Domain for one year',
       'Free Facebook page management (6 months)',
       'Free Hosting for 2 months',
@@ -67,14 +67,13 @@ const packages = [
       'Use React Native',
       'Free Domain for one year',
       'Free Facebook page management (6 months)',
-      'Free Hosting for 2 months',
-      'Free $10 Facebook boosting',
+      'Free Hosting for 6 months',
       '1 Year free maintenance'
     ]
   },
   {
     name: 'Package E',
-    price: 'Rs.85,000',
+    price: 'Rs.115,000',
     description: 'Complete mobile app ecosystem with portals.',
     features: [
       'Mobile App Development with landing page & admin portal',
