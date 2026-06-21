@@ -36,7 +36,7 @@ const projectsData = [
     keywords: ['landing page', 'frontend', 'ecommerce', 'restaurant', 'food'],
     description: 'A robust e-commerce landing page designed exclusively for a pizza restaurant to showcase and sell food.',
     image: project3,
-    link: 'https://prime-crust.vercel.app/-project3'
+    link: 'https://prime-crust.vercel.app'
   },
   {
     id: 4,
